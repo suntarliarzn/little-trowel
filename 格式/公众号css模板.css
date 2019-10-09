@@ -26,7 +26,7 @@
 }
 
 p {/*段落*/
-  margin: 1.5em 0px;
+  margin: 0px 1.5em ;
   text-indent:2em;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -144,7 +144,7 @@ blockquote { /*引用块*/
   border-left: 6px solid #dce6f0;
   background: #f2f7fb;
   overflow: auto;
-  overflow-scrolling: touch; 
+  -ms-overflow-style: touch; 
   word-wrap: normal;
   word-break: normal;  
 }
@@ -328,7 +328,7 @@ a[href^="#"] sup
 {/*总目录*/
   margin-left:5px;
   font-size: 16px;
-  color: #212121；
+  color: #212121;
 }
 .toc_item
 {/*每条目录*/
@@ -339,7 +339,7 @@ a[href^="#"] sup
 {/*每级目录的缩进*/
   margin-left:5px;
   font-size: 16px;
-  color: #212121；
+  color: #212121; 
 }
 
 
